@@ -1,0 +1,163 @@
+/* https://coolors.co/223843-eff1f3-dbd3d8-dc143c-43291f */
+
+:root {
+  --background_color: #17181D;
+  --text_color: #eff1f3;
+  --section_color: #dbd3d8;
+  --section_bg: #43291f;
+  --main_color: #dc143c;
+
+  --section_bg: rgba(255, 255, 255, .1);
+
+  --main_font: 'Great Vibes', cursive;
+  --section_font: 'Dancing Script', cursive;
+  --content_font: 'Open Sans', sans-serif;
+
+  --min_column_width: 12em;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  position: absolute;
+  background-color: var(--background_color);
+  color: var(--text_color);
+}
+
+main {
+  top: 50px;
+  height: calc(100% - 50px);
+  width: 100%;
+  position: absolute;
+  overflow: scroll;
+  display: block;
+
+  /*border: 3px solid #73AD21;
+  padding: 10px;*/
+}
+
+article {
+  position: relative;
+  padding: 10px;
+  max-width: 800px;
+  margin: auto;
+  overflow: auto;
+  display: block;
+}
+
+section {
+  margin-bottom: 5px;
+  padding: 10px;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: var(--section_bg);
+}
+
+section:nth-child(odd) {
+  background-color: var(--section_bg);
+  border: none;
+}
+
+h3 {
+  font-family: var(--main_font);
+  font-size: 32px;
+  color: var(--main_color);
+}
+
+h4 {
+  font-family: var(--content_font);
+  color: var(--text_color);
+  font-size: 22px;
+  font-style: italic;
+}
+
+h4:before {
+  content: ' ';
+  display: table;
+  width: var(--min_column_width);
+}
+
+p {
+  min-width: 200px;
+  font-family: var(--content_font);
+  font-size: 18px;
+}
+
+b {
+  color: yellow;
+}
+
+a {
+  color: var(--main_color);
+}
+
+a:hover {
+  color: yellow;
+  text-decoration: none;
+}
+
+.image-left {
+  float: left;
+  padding: 20px;
+  max-width: 400px;
+}
+
+.image-right {
+  float: right;
+  padding: 20px;
+  max-width: 400px;
+}
+
+.image-center {
+  padding: 20px;
+}
+
+img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.fa {
+  border-radius: 14px;
+  border-width: 1px;
+  border-style: solid;
+  width: 28px;
+  height: 28px;
+  padding: 1px;
+  padding-top: 4px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.centered {
+  text-align: center;
+}
+
+.padded {
+  padding-left: 10px;
+}
+
+.padded:before {
+  content: ' ';
+  display: table;
+  width: var(--min_column_width);
+}
+
+#brand {
+  font-family: var(--main_font);
+  color: var(--main_color);
+  font-size: 28px;
+}
+
+#classes {
+  background-image: url('/images/tango3_50pc.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  /*text-shadow: -2px -2px 1 #000, 2px -2px 1 #000, -2px 2px 1 #000, 2px 2px 1 #000;*/
+}
+
