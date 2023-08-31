@@ -107,19 +107,19 @@ a:hover {
   text-decoration: none;
 }
 
-.image-left {
+.float-left {
   float: left;
   padding: 20px;
   max-width: 400px;
 }
 
-.image-right {
+.float-right {
   float: right;
   padding: 20px;
   max-width: 400px;
 }
 
-.image-center {
+.float-center {
   padding: 20px;
 }
 
