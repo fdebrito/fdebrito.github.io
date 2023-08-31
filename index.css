@@ -75,7 +75,6 @@ h1 {
   font-family: var(--content_font);
   color: var(--text_color);
   font-size: 22px;
-  font-style: italic;
 }
 
 h1:before {
