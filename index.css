@@ -106,6 +106,10 @@ a:hover {
   text-decoration: none;
 }
 
+.shadow {
+  text-shadow: 0 0 0.2rem var(--main_color);
+}
+
 .float-left {
   float: left;
   padding: 20px;
